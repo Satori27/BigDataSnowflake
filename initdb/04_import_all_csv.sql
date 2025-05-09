@@ -1,6 +1,3 @@
--- DML/import_all_csv.sql
-
--- Повторите для каждого файла
 COPY staging_sales FROM '/data/MOCK_DATA (1).csv' WITH CSV HEADER;
 COPY staging_sales FROM '/data/MOCK_DATA (2).csv' WITH CSV HEADER;
 COPY staging_sales FROM '/data/MOCK_DATA (3).csv' WITH CSV HEADER;
